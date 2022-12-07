@@ -41963,7 +41963,9 @@ defmodule ZipcodeToTimezone.Data.Zipcodes do
     "08922" =>  0,
     "08933" =>  0,
     "08988" =>  0,
-    "08989" =>  0
+    "08989" =>  0,
+    "62240" =>  0,
+    "72713" =>  0
   }
 
   def zips, do: @zips

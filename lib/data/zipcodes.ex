@@ -41965,6 +41965,7 @@ defmodule ZipcodeToTimezone.Data.Zipcodes do
     "08933" =>  0,
     "08988" =>  0,
     "08989" =>  0,
+    "8512" => 0,
 
     "62240" =>  1,
     "72713" =>  1,

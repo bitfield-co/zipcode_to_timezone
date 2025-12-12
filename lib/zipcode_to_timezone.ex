@@ -13,9 +13,10 @@ defmodule ZipcodeToTimezone do
 
   """
   def get(nil), do: nil
+
   def get(zip) when is_binary(zip) do
-    idx = Map.get(Zipcodes.zips, zip)
-    Map.get(Timezones.timezones, idx)
+    idx = Map.get(Zipcodes.zips(), zip)
+    Map.get(Timezones.timezones(), idx)
   end
 
   def get(_), do: nil
